@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <aiml version="1.0.1" encoding="UTF-8"> -->
+<aiml>
+
+<meta name="language" content="en"/>
+
+<category>
+    <pattern>*</pattern>
+    <template>
+    <random>
+			<li>I don't think I am aware of that</li>
+			<li>I have no answer for that.</li>
+		</random>
+    </template>
+  </category>
+  
+<category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+    
+    <category>
+      <pattern>^ HI ^</pattern>
+      <template>
+	<random>
+		<li>Hello there!</li>
+		<li>Hey</li>
+	</random>
+	  </template>
+    </category>
+
+<category>
+      <pattern>^ HELLO ^</pattern>
+      <template>
+		<srai>HI</srai>
+	  </template>
+    </category>
+
+<category>
+      <pattern>WHAT IS YOUR NAME</pattern>
+      <template>
+		You suggest something!
+	  </template>
+    </category>
+
+<category>
+      <pattern>^ WHAT ^ YOUR ^ NAME ^</pattern>
+      <template>
+		<srai>WHAT IS YOUR NAME</srai>
+	  </template>
+    </category>
+
+<category>
+      <pattern>LET YOUR NAME BE *</pattern>
+      <template>
+		Okay, <set name = "botname"> <star/></set> is a good name! <br></br>
+		What about you?
+	  </template>
+    </category>
+
+<category>
+      <pattern>HOW ABOUT *</pattern>
+      <template>
+		Okay, <set name = "botname"> <star/></set> is a good name! <br></br>
+		What about you?
+	  </template>
+    </category>
+
+<category>
+      <pattern>MY NAME IS *</pattern>
+      <template>
+		Oh! Nice to meet you<set name = "username"> <star/></set> 
+	  </template>
+    </category>
+
+<category>
+      <pattern>THANK YOU *</pattern>
+      <template>
+		You are most welcome! 
+	  </template>
+    </category>
+
+<category>
+      <pattern>THANK YOU</pattern>
+      <template>
+		You are most welcome! 
+	  </template>
+    </category>
+
+<category>
+      <pattern>BYE *</pattern>
+      <template>
+		Goodbye! 
+	  </template>
+    </category>
+
+<category>
+      <pattern>^ BYE ^</pattern>
+      <template>
+		Goodbye! 
+	  </template>
+    </category>
+
+
+</aiml>

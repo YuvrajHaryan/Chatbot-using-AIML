@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <aiml version="1.0.1" encoding="UTF-8"> -->
+<aiml>
+<meta name="language" content="en"/>
+
+
+<category>
+    <pattern>I NEED TO KNOW ABOUT CLASSES</pattern>
+    <template>Our Coaching class is for 10th and 12th std students.</template>
+</category>
+
+<category>
+    <pattern>^ KNOW ^ ABOUT ^ CLASSES ^</pattern>
+    <template>
+        <srai>I NEED TO KNOW ABOUT CLASSES</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ INQUIRE ^ ABOUT ^ CLASSES ^</pattern>
+    <template>
+        <srai>I NEED TO KNOW ABOUT CLASSES</srai>
+    </template>
+</category>
+  
+<category>
+    <pattern>^ FEE STRUCTURE ^</pattern>
+    <template>
+        Fees for 10th is RS.30,000/-<br></br>
+        Fees for 12th is RS.50,000/-
+    </template>
+</category>
+
+<category>
+    <pattern>^ FEES ^</pattern>
+    <template>
+        <srai>^ FEE STRUCTURE ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ WHEN ^ CLASSES ^ 10TH ^</pattern>
+    <template>
+        For 10th std <br></br>
+        Batch 1 : 8-9AM<br></br>
+        Batch 2 : 6-7PM
+    </template>
+</category>
+
+<category>
+    <pattern>^ TIMING ^ CLASSES ^ 10TH ^</pattern>
+    <template>
+        <srai>^ WHEN ^ CLASSES ^ 10TH ^</srai>
+    </template>
+</category>
+  
+<category>
+    <pattern>^ TIME ^ CLASSES ^ 10TH ^</pattern>
+    <template>
+        <srai>^ WHEN ^ CLASSES ^ 10TH ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ WHEN ^ CLASSES ^ 12TH ^</pattern>
+    <template>
+        For 10th std <br></br>
+        Batch 1 : 7-8AM<br></br>
+        Batch 2 : 7-8PM
+    </template>
+</category>
+
+<category>
+    <pattern>^ TIMING ^ CLASSES ^ 12TH ^</pattern>
+    <template>
+        <srai>^ WHEN ^ CLASSES ^ 12TH ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ TIME ^ CLASSES ^ 12TH ^</pattern>
+    <template>
+        <srai>^ WHEN ^ CLASSES ^ 12TH ^</srai>
+    </template>
+</category>
+
+
+</aiml>
